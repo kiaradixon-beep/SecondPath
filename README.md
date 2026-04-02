@@ -1,26 +1,47 @@
-# SecondPath Project Overview
+# Youth Behavior Tracking System
 
-Welcome to the SecondPath project! This repository is aimed at helping users navigate the complexities of various pathways in an efficient manner.
+## Project Overview
+The Youth Behavior Tracking System is designed to help educators and parents track and assess youth behaviors in various settings, providing insights and analytics to promote better outcomes.
 
 ## Features
-- **User-friendly Interface**: Easy navigation and interaction.
-- **Robust Pathfinding Algorithms**: Our algorithms are optimized for performance.
-- **Real-time Updates**: Stay informed with live data.
+- **User Authentication**: Secure login and user management.
+- **Real-time Analytics**: Insights into youth behaviors and trends.
+- **Reporting**: Generate custom reports for stakeholders.
+- **Notifications**: Alerts for significant behavior changes.
 
-## Installation
-To install the SecondPath project, follow these steps:
-1. Clone the repository: `git clone https://github.com/kiaradixon-beep/SecondPath.git`
-2. Navigate to the project directory: `cd SecondPath`
-3. Install dependencies: `npm install`
-
-## Usage
-To start the application, use the following command:
-```bash
-npm start
+## Project Structure
+```
+/youth-behavior-tracking-system
+├── /src
+│   ├── /components
+│   ├── /pages
+│   └── /utils
+├── /public
+├── package.json
+└── README.md
 ```
 
+## Setup Instructions
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/kiaradixon-beep/YouthBehaviorTrackingSystem.git
+   ```
+2. **Navigate to the directory**:  
+   ```bash
+   cd YouthBehaviorTrackingSystem
+   ```
+3. **Install dependencies**:  
+   ```bash
+   npm install
+   ```
+4. **Run the application**:  
+   ```bash
+   npm start
+   ```
+   Open your browser and go to `http://localhost:3000`
+
 ## Contributing
-We welcome contributions! Please read our contributing guidelines to get started.
+We welcome contributions! Please submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
