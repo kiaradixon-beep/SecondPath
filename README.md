@@ -10,13 +10,13 @@ The Youth Behavior Tracking System is designed to help educators and parents tra
 - **Notifications**: Alerts for significant behavior changes.
 
 ## Project Structure
-```
 my-app/
-  server.js
-  package.json
-  client/
-    package.json
-    src/
+  api/
+    hello.js       ✔ backend (serverless)
+  index.html       ✔ React build output
+  static/          ✔ React assets
+  ...
+
 
 ```
 
