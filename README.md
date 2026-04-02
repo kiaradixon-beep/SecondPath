@@ -11,14 +11,13 @@ The Youth Behavior Tracking System is designed to help educators and parents tra
 
 ## Project Structure
 ```
-/youth-behavior-tracking-system
-├── /src
-│   ├── /components
-│   ├── /pages
-│   └── /utils
-├── /public
-├── package.json
-└── README.md
+my-app/
+  server.js
+  package.json
+  client/
+    package.json
+    src/
+
 ```
 
 ## Setup Instructions
