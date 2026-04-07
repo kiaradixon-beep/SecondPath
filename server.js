@@ -14,4 +14,9 @@ app.get('/', (req, res) => {
     res.send('Youth Behavior Tracking System API is running');
 });
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
