@@ -1,3 +1,4 @@
+const staffRoutes = require("./routes/staff");
 const express = require('express');
 const app = express();
 
@@ -9,6 +10,7 @@ app.use('/api', require('./routes/auth'));
 app.use('/api', require('./routes/behaviors'));
 app.use('/api', require('./routes/facilities'));
 app.use('/api', require('./routes/reports'));
+app.use("/staff", staffRoutes);
 
 // Root route
 app.get('/', (req, res) => {
