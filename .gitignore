@@ -1,13 +1,4 @@
-# Node modules
 node_modules/
-
-# Environment variables
 .env
-
-# Common development files
 .DS_Store
 *.log
-*.tmp
-*.bak
-*~
-*.swp
